@@ -52,12 +52,12 @@ nav ul li a {
 }
 
 /* Cards de Receita */
-.recipe-card {
-  background: #fff;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: block;   /* Para manter o layout consistente, utilize display block */
+.recipe-card img {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* centraliza a imagem se o container for maior */
 }
 
 .recipe-card img {
